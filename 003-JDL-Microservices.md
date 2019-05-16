@@ -1,6 +1,6 @@
 # Step 1
 
-Let us generate a monolith application using JDL.
+Let us generate a microservice application using JDL.
 
 Create a folder called `store-microservices`
 
@@ -16,13 +16,13 @@ And add the following contents into it.
 
 ```
 /*
- * This is a monolithic e-commerce store sample
+ * This is a microservice e-commerce store sample
  */
 
 application {
   config {
     baseName store,
-    applicationType gateway,
+    applicationType microservice,
     packageName com.jhipster.demo.store,
     serviceDiscoveryType eureka,
     authenticationType jwt,
