@@ -183,7 +183,7 @@ With JHipster generate the application
 
 Now package the applications
 
-`cd ../store`
+`cd store`
 
 and Run
 
@@ -191,7 +191,7 @@ and Run
 
 and then spin up another terminal and go to notification directory
 
-`cd ../notification`
+`cd notification`
 
 and run
 
