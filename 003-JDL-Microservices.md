@@ -22,7 +22,7 @@ And add the following contents into it.
 application {
   config {
     baseName store,
-    applicationType microservice,
+    applicationType gateway,
     packageName com.jhipster.demo.store,
     serviceDiscoveryType eureka,
     authenticationType jwt,
@@ -174,12 +174,12 @@ enum NotificationType {
 microservice Notification with notification
 ```
 
-#step 2
+# step 2
 With JHipster generate the application
 
 `jhipster import-jdl app.jdl`
 
-#step 3
+# step 3
 
 Now package the applications
 
