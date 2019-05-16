@@ -1,7 +1,7 @@
 # Step 1
 Install Nodejs.
 
-(link)[https://nodejs.org/en/]
+[link](https://nodejs.org/en/)
 
 If you have nodejs installed, skip to step 2
 
@@ -13,7 +13,7 @@ Check the nodejs version installed.
 (make sure that the version is greater than 10)
 
 
-#Step 3
+# Step 3
 
 Install generator-jhipster as a global module.
 
@@ -29,7 +29,7 @@ You can also run
 
 `yarn add global generator-jhipster`
 
-#Step 4
+# Step 4
 
 Check whether the installation is done correctly.
 
