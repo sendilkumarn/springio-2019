@@ -183,7 +183,7 @@ With JHipster generate the application
 
 Now package the applications
 
-`cd store`
+`cd /path/to/store-microservices/store`
 
 and Run
 
@@ -191,7 +191,7 @@ and Run
 
 and then spin up another terminal and go to notification directory
 
-`cd notification`
+`cd /path/to/store-microservices/notification`
 
 and run
 
@@ -206,7 +206,7 @@ and then boot the application in a different terminal
 
 Now Start JHipster registry
 
-`cd store`
+`cd /path/to/store-microservices/store`
 
 `docker-compose -f src/main/docker/jhipster-registry.yml up`
 
