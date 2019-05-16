@@ -187,7 +187,7 @@ Now package the applications
 
 and Run
 
-`./gradlew -x :npmInstall`
+`./gradlew`
 
 and then spin up another terminal and go to notification directory
 
@@ -199,7 +199,7 @@ and run
 
 and then boot the application in a different terminal
 
-`./gradlew `
+`./gradlew`
 
 
 #Step 4
