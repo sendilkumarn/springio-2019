@@ -206,7 +206,7 @@ and then boot the application in a different terminal
 
 Now Start JHipster registry
 
-`cd ../store`
+`cd store`
 
 `docker-compose -f src/main/docker/jhipster-registry.yml up`
 
