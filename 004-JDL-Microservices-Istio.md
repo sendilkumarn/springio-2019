@@ -12,8 +12,8 @@ Create a file called `app.jdl`
 
 `touch app.jdl`
 
-And add the following contents into it.
-
+<details> <summary> And add the following contents into it. </summary>
+<p>
 ```
 /*
  * This is a microservice e-commerce store sample
@@ -173,13 +173,16 @@ enum NotificationType {
 }
 microservice Notification with notification
 ```
+</p>
+</details>
 
-#step 2
+
+# Step 2
 With JHipster generate the application
 
 `jhipster import-jdl app.jdl`
 
-#step 3
+# Step 3
 
 Now package the applications
 
@@ -200,7 +203,7 @@ and run
 The above command will generate the necessary Docker images for us to deploy.
 
 
-#Step 4
+# Step 4
 
 Now go a step back in the folder.
 `cd ..`
@@ -217,7 +220,7 @@ and Run
 
 `jhipster kubernetes`
 
-#Step 5
+# Step 5
 
 Tag and push the images to the docker repository.
 
@@ -229,12 +232,27 @@ https://istio.io/
 
 https://istio.io/docs/setup/kubernetes/install/kubernetes/
 
-#Step 6
+# Step 6
 
 Now run everything on the cluster using.
 
 `cd ../k8s`
 
 `./kubectl-apply.sh`
+
+
+# Step 7 (Optional - Run JHipster console)
+
+** Note this will work only when you enable JHipster console when running `jhipster kubernetes`
+
+Now Start JHipster console
+
+`cd /path/to/store-microservices/store`
+
+`docker-compose -f src/main/docker/jhipster-console.yml up `
+
+Now the registry will be available at [http://localhost:8761/#/](http://localhost:8761/#/)
+
+
 
 :tada: we have completed the fourth milestone :tada:
