@@ -224,7 +224,7 @@ and Run
 
 Tag and push the images to the docker repository.
 
-#Step 6
+# Step 6
 Install the istio on the running Kubernetes machine.
 
 https://istio.io/
@@ -232,7 +232,7 @@ https://istio.io/
 
 https://istio.io/docs/setup/kubernetes/install/kubernetes/
 
-# Step 6
+# Step 7
 
 Now run everything on the cluster using.
 
@@ -241,7 +241,7 @@ Now run everything on the cluster using.
 `./kubectl-apply.sh`
 
 
-# Step 7 (Optional - Run JHipster console)
+# Step 8 (Optional - Run JHipster console)
 
 ** Note this will work only when you enable JHipster console when running `jhipster kubernetes`
 
