@@ -217,4 +217,17 @@ Now Start JHipster registry
 
 Now the registry will be available at [http://localhost:8761/#/](http://localhost:8761/#/)
 
+# Clean up (optional)
+
+Stop the docker container 
+
+`cd /path/to/store-microservices/store`
+
+`docker-compose -f src/main/docker/jhipster-registry.yml down`
+
+Remove the folder to completely remove the generated code.
+
+`rm -Rf store-microservices`
+
+
 :tada: we have completed the third milestone :tada:
