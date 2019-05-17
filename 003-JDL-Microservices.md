@@ -175,14 +175,15 @@ enum NotificationType {
 }
 microservice Notification with notification
 ```
+
 </p>
 
-# step 2
+# Step 2
 With JHipster generate the application
 
 `jhipster import-jdl app.jdl`
 
-# step 3
+# Step 3
 
 Now package the applications
 
