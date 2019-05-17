@@ -177,6 +177,7 @@ Create a file called `app.jdl`
 		```
 
 	</p>
+</details>
 
 # Step 2
 With JHipster generate the application
