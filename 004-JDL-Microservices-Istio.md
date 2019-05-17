@@ -243,15 +243,9 @@ Now run everything on the cluster using.
 
 # Step 8 (Optional - Run JHipster console)
 
-** Note this will work only when you enable JHipster console when running `jhipster kubernetes`
+** Note this will work only when you enable JHipster console when running `jhipster kubernetes` **
 
-Now Start JHipster console
-
-`cd /path/to/store-microservices/store`
-
-`docker-compose -f src/main/docker/jhipster-console.yml up `
-
-Now the registry will be available at [http://localhost:8761/#/](http://localhost:8761/#/)
+The registry will be available at [http://localhost:8761/#/](http://localhost:8761/#/)
 
 Now access Kibana at [localhost:5601](http://localhost:5601) and Zipkin at [localhost:9411](http://localhost:9411).
 
