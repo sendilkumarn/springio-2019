@@ -12,7 +12,9 @@ Create a file called `app.jdl`
 
 `touch app.jdl`
 
-And add the following contents into it.
+<details><summary>And add the following contents into it.</summary>
+
+<p>
 
 ```
 /*
@@ -173,6 +175,7 @@ enum NotificationType {
 }
 microservice Notification with notification
 ```
+</p>
 
 # step 2
 With JHipster generate the application
@@ -202,12 +205,14 @@ and then boot the application in a different terminal
 `./gradlew`
 
 
-#Step 4
+# Step 4
 
 Now Start JHipster registry
 
 `cd /path/to/store-microservices/store`
 
-`docker-compose -f src/main/docker/jhipster-registry.yml up`
+`docker-compose -f src/main/docker/jhipster-registry.yml up `
+
+Now the registry will be available at [http://localhost:8761/#/](http://localhost:8761/#/)
 
 :tada: we have completed the third milestone :tada:
